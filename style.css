@@ -1,0 +1,77 @@
+html,body{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin:0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color:black;
+}
+
+a:link, a:visited{
+    color:#000;
+    outline:0;
+    text-decoration: none;
+}
+
+img{
+    width: 40px;
+   
+}
+
+.modal-header
+{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content
+{
+    padding: 0 22px;
+}
+
+.main
+{
+    border-top: 0.5px solid #dadada;
+}
+
+.list li{
+    list-style: none;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    font-size: large;
+}
+
+.list li:hover{
+    opacity: 0.4;
+}
+
+.list{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px 22px;
+}
+
+.logo
+{
+    padding: 16px;
+}
+
+.logo-icon
+{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+.version
+{
+    color:#444;
+    font-size: 18px;
+}
